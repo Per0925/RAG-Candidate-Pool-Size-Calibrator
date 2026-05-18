@@ -47,7 +47,7 @@ Results are saved to src/results_{mode}_{emb_conf_threshold}_{top_n}.csv.
 ### 3. Compare results
 `python main.py result_comparison`
 ## Results Snapshot
-![alt text](src/rag_results.png)
+![alt text](src/comparison_results.png)
 ### Key Insights
 * Fixed top‑N (20) achieves the highest recall (~0.8892) but lower utility due to latency.
 * Dynamic reranking balances recall and utility, performing close to fixed top‑N with reduced computational cost, maximizing rate of investment.
