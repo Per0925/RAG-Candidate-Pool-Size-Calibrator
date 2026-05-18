@@ -73,5 +73,4 @@ def result_comparison():
 
     plt.title("Comparison of Average s2_rec, s2_prec, s2_util")
     plt.tight_layout()
-    plt.show()
     plt.savefig("src/comparison_results.png")
